@@ -1,0 +1,1 @@
+Demo single application page angular js app.
