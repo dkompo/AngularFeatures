@@ -1,23 +1,20 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: uocin
-  Date: 9/6/2016
-  Time: 11:54 AM
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page pageEncoding="UTF-8" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <html>
     <head>
+        <c:import url="pages/head.jsp" />
+
         <title>$Title$</title>
-        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
-        <script src="TestService.js"></script>
-        <script src="TestController.js"></script>
+
     </head>
     <body ng-app="invoice1">
+        <c:url value="/ext.jsp">Testtt</c:url>
         <button onclick="alertSth()">alert</button>
         <a href="#/red">Red</a>
         <a href="#/blue">blue</a>
+        <a href="#/ext">Grid</a>
         <div ng-controller="InvoiceController as invoice">
             <b>Invoice:</b>
             <div>

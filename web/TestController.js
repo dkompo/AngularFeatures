@@ -38,6 +38,8 @@ app.config(function ($routeProvider) {
 		templateUrl: 'pages/red.html'
 	}).when('/blue', {
 		templateUrl: 'pages/blue.html'
+	}).when('/ext', {
+		templateUrl: 'ext.jsp'
 	})
 
 });

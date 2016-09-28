@@ -9,8 +9,12 @@ angular.module('testModule', [])
 			// });
 		}
 
+		var getSampleData = function () {
+			return $http.get("http://www.highcharts.com/studies/live-server-data.php")
+		}
 		return {
 
-			getTime: getTime
+			getTime: getTime,
+			getSampleData: getSampleData
 		};
 	});
