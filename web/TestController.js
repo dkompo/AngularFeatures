@@ -10,7 +10,6 @@ app.controller('InvoiceController', ['timeDisplay', '$scope', function InvoiceCo
 		$scope.invoice.timeNow = response.data.time;
 	});
 
-	//var mitsos = 2;
 	//this.qty = 1;
 	this.cost = 2;
 	// $scope.invoice.qty = 4;
